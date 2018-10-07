@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Cross-type Biomedical Named Entity Recognition with Deep Multi-task Learning
 
 You can use the [editor on GitHub](https://github.com/xuanwang91/BioNER/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
