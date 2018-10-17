@@ -1,5 +1,5 @@
 ## [Cross-type Biomedical Named Entity Recognition with Deep Multi-task Learning](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty869/5126922?guestAccessKey=403bcc14-3eca-4ff0-b9fb-5ecd1c1744d2)
-### Xuan Wang, Yu Zhang, Xiang Ren, Yuhao Zhang, Marinka Zitnik, Jingbo Shang, Curtis Langlotz and Jiawei Han. _Bioinformatics_, 2018.
+Xuan Wang, Yu Zhang, Xiang Ren, Yuhao Zhang, Marinka Zitnik, Jingbo Shang, Curtis Langlotz and Jiawei Han. _Bioinformatics_, 2018.
 
 ### Biomedical Named Entity Recognition
 
