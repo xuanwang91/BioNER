@@ -16,8 +16,11 @@ We propose a new multi-task learning framework using character-level neural mode
 **Single-task model (STM)**: Our single-task model consists of three layers (Figure 1). In the first layer, a BiLSTM network is used to model the character sequence of the input sentence. We use character embedding vectors as input to the network. Hidden state vectors at the word boundaries of this character-level BiLSTM are then selected and concatenated with word embedding vectors to form word representations. Next, these word representation vectors are fed into a word-level BiLSTM layer (i.e., the upper BiLSTM layer in Figure 1). Lastly, output of this word-level BiLSTM is fed into the a CRF layer for label prediction.
 
 **Multi-task models (MTMs)**: We propose three different multi-task models (Figure 2). These three models differ in which part of the model parameters are shared across multiple datasets.
+
 **_MTM-C_**: the character-level BiLSTM parameters are shared across multiple datasets.
+
 **_MTM-W_**: the word-level BiLSTM parameters are shared across multiple datasets.
+
 **_MTM-CW_**: both the character-level and the word-level BiLSTM parameters are shared across multiple datasets.
 
 ### Performance
