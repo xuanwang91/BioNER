@@ -23,7 +23,7 @@ We compare our model with recent state-of-the-art models on the five datasets me
 Codes and datasets have been uploaded to [Github](https://github.com/yuzhimanhua/LM-LSTM-CRF).
 
 ### Reference
-If you find the implementation useful, please cite the following paper:
+If you find the code and datasets useful, please cite the following paper:
 ```
 @article{doi:10.1093/bioinformatics/bty869,
 author = {Wang, Xuan and Zhang, Yu and Ren, Xiang and Zhang, Yuhao and Zitnik, Marinka and Shang, Jingbo and Langlotz, Curtis and Han, Jiawei},
