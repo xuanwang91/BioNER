@@ -7,10 +7,10 @@ Biomedical named entity recognition (BioNER) is one of the most fundamental task
 ### Our Framework
 We propose a new multi-task learning framework using character-level neural models for BioNER. The proposed framework, despite being simple and not requiring any feature engineering, achieves excellent benchmark performance. Our multi-task model is built upon a single-task neural network model ([Liu et al., 2018](https://arxiv.org/pdf/1709.04109.pdf)). In particular, we consider a BiLSTM-CRF model with an additional context-dependent BiLSTM layer for modeling character sequences (Figure 1). A prominent advantage of our multi-task model is that inputs from different datasets can efficiently share both character- and word-level representations, by reusing parameters in the corresponding BiLSTM units (Figure 2).
 
-![lstm](BioNER/lstm.png)
+![lstm](./lstm.png)
 *<center>Figure 1. Architecture of a single-task neural network.</center>*
 
-![mtms](BioNER/mtms.png)
+![mtms](./mtms.png)
 *<center>Figure 2. Three multi-task learning neural network models.</center>*
 
 ### Performance
