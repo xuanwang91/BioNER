@@ -21,7 +21,7 @@ We compare our model with recent state-of-the-art models on the five datasets me
 | [Lample et al. 2016](https://github.com/glample/tagger) | 80.51 | 87.74 | 86.92 | 85.80 | 73.48 |
 | [Ma and Hovy 2016](https://github.com/XuezheMax/LasagneNLP) | 78.48 | 86.84 | 86.65 | 82.62 | 72.68 |
 | [Liu et al. 2018](https://github.com/LiyuanLucasLiu/LM-LSTM-CRF) | 80.00 | 88.75 | 86.96 | 83.92 | 72.17 |
-| Our Model | **80.74** | **89.37** | **88.78** | **86.14** | **73.52** |
+| Our Model (MTM-CW) | **80.74** | **89.37** | **88.78** | **86.14** | **73.52** |
 
 ### Resources
 Codes and datasets have been uploaded to [Github](https://github.com/yuzhimanhua/LM-LSTM-CRF).
