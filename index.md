@@ -36,7 +36,7 @@ We compare our model with recent state-of-the-art models on the five datasets me
 | MTM-CW | **80.74** | **89.37** | **88.78** | **86.14** | **73.52** |
 
 ### Resources
-Codes and datasets have been uploaded to [Github](https://github.com/yuzhimanhua/LM-LSTM-CRF).
+Codes and datasets have been uploaded to [Github](https://github.com/yuzhimanhua/Multi-BioNER).
 
 ### Reference
 If you find the code and datasets useful, please cite the following paper:
