@@ -24,7 +24,7 @@ We propose a new multi-task learning framework using character-level neural mode
 **_MTM-CW_**: both the character-level and the word-level BiLSTM parameters are shared across multiple datasets.
 
 ### Performance
-We compare our model with recent state-of-the-art models on the five datasets mentioned above. We use F1 score as the evaluation metric.
+We compare our model with recent state-of-the-art models on the five benchmark BioNER datasets. We use F1 score as the evaluation metric.
 
 |Model | [BC2GM](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/BC2GM-IOBES) | [BC4CHEMD](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/BC4CHEMD-IOBES) | [BC5CDR](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/BC5CDR-IOBES) | [NCBI-disease](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/NCBI-disease-IOBES) | [JNLPBA](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/JNLPBA-IOBES) |
 | ------------- |-------------| -----| -----| -----| ---- |
@@ -34,6 +34,26 @@ We compare our model with recent state-of-the-art models on the five datasets me
 | [Ma and Hovy 2016](https://github.com/XuezheMax/LasagneNLP) | 78.48 | 86.84 | 86.65 | 82.62 | 72.68 |
 | [Liu et al. 2018](https://github.com/LiyuanLucasLiu/LM-LSTM-CRF) | 80.00 | 88.75 | 86.96 | 83.92 | 72.17 |
 | MTM-CW | **80.74** | **89.37** | **88.78** | **86.14** | **73.52** |
+
+We also the performance of our single-task model (STM) and multi-task model (MTM-CW) with the baseline multi-task neural network model by Crinchton et al. on the same 15 datasets used by Crinchton et al.. Since all the datasets are trained together for MTM-CW, the performance on each dataset is slightly different when trained on 15 datasets compared with trained on 5 datasets (shown above).
+
+|Dataset | [Crichton et al. 2016](https://github.com/cambridgeltl/MTL-Bioinformatics-2016) | STM | MTM-CW | Performance Improvement |
+| ------------- |-------------| -----| -----| -----| ---- |
+| AnatEM | 82.21 | 85.30	| **86.04**	| **+4.19** | 
+| BC2GM | 73.17	| **80.00**	| 78.86	| **+5.69** |
+| BC4CHEMD | 83.02	| 88.75	| **88.83**	| **+5.81** |
+| BC5CDR | 83.90	| 86.96	| **88.14**	| **+4.24** |
+| BioNLP09 | 84.20	| 84.22	| **88.08**	| **+3.88** |
+| BioNLP11EPI | 78.86	| 77.67	| **83.18**	| **+4.32** |
+| BioNLP11ID | 81.73	| 74.60	| **83.26**	| **+1.53** |
+| BioNLP13CG | 78.90	| 81.84	| **82.48** |	**+3.58** |
+| BioNLP13GE | 78.58	| 69.30	| **79.87**	| **+1.29** |
+| BioNLP13PC | 81.92	| 85.46	| **88.46**	| **+6.54** |
+| CRAFT | 79.56	| 81.20	| **82.89**	| **+3.33** |
+| Ex-PTM | 74.90	| 67.66	| **80.19**	| **+5.29** |
+| JNLPBA | 70.09	| 72.17	| **72.21**	| **+2.12** |
+| Linnaeus | 84.04	| 86.94	| **88.88**	| **+4.84** |
+| NCBI-Disease | 80.37	| 83.92	| **85.54**	| **+5.17** |
 
 ### Resources
 Codes and datasets have been uploaded to [Github](https://github.com/yuzhimanhua/Multi-BioNER).
