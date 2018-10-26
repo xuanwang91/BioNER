@@ -35,7 +35,7 @@ We compare our model with recent state-of-the-art models on the five benchmark B
 | [Liu et al. 2018](https://github.com/LiyuanLucasLiu/LM-LSTM-CRF) | 80.00 | 88.75 | 86.96 | 83.92 | 72.17 |
 | MTM-CW | **80.74** | **89.37** | **88.78** | **86.14** | **73.52** |
 
-We also the performance of our single-task model (STM) and multi-task model (MTM-CW) with the baseline multi-task neural network model by Crinchton et al. on the same 15 datasets used by Crinchton et al.. Since all the datasets are trained together for MTM-CW, the performance on each dataset is slightly different when trained on 15 datasets compared with trained on 5 datasets (shown above).
+We also the performance of our single-task model (STM) and multi-task model (MTM-CW) with the baseline multi-task neural network model by Crinchton et al. on the same 15 datasets used by Crinchton et al.. We use F1 score as the evaluation metric.
 
 |Dataset | [Crichton et al. 2016](https://github.com/cambridgeltl/MTL-Bioinformatics-2016) | STM | MTM-CW | Performance Improvement |
 | ------------ |------------| ------------| ------------ | ------------|
@@ -54,6 +54,8 @@ We also the performance of our single-task model (STM) and multi-task model (MTM
 | [JNLPBA](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/JNLPBA-IOBES) | 70.09	| 72.17	| **72.21**	| **+2.12** |
 | [Linnaeus](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/linnaeus-IOBES) | 84.04	| 86.94	| **88.88**	| **+4.84** |
 | [NCBI-Disease](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/NCBI-disease-IOBES) | 80.37	| 83.92	| **85.54**	| **+5.17** |
+
+Note: Since all the datasets are trained together for MTM-CW, the performance on each dataset is slightly different when trained on 15 datasets compared with trained on 5 datasets (shown above).
 
 ### Resources
 Codes and datasets have been uploaded to [Github](https://github.com/yuzhimanhua/Multi-BioNER).
