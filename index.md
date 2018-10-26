@@ -52,8 +52,8 @@ We also the performance of our single-task model (STM) and multi-task model (MTM
 | [CRAFT](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/CRAFT-IOBES) | 79.56	| 81.20	| **82.89**	| **+3.33** |
 | [Ex-PTM](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/Ex-PTM-IOBES) | 74.90	| 67.66	| **80.19**	| **+5.29** |
 | [JNLPBA](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/JNLPBA-IOBES) | 70.09	| 72.17	| **72.21**	| **+2.12** |
-| [Linnaeus](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/Linnaeus-IOBES) | 84.04	| 86.94	| **88.88**	| **+4.84** |
-| [NCBI-Disease](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/NCBI-Disease-IOBES) | 80.37	| 83.92	| **85.54**	| **+5.17** |
+| [Linnaeus](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/linnaeus-IOBES) | 84.04	| 86.94	| **88.88**	| **+4.84** |
+| [NCBI-Disease](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data/NCBI-disease-IOBES) | 80.37	| 83.92	| **85.54**	| **+5.17** |
 
 ### Resources
 Codes and datasets have been uploaded to [Github](https://github.com/yuzhimanhua/Multi-BioNER).
