@@ -38,7 +38,7 @@ We compare our model with recent state-of-the-art models on the five benchmark B
 We also the performance of our single-task model (STM) and multi-task model (MTM-CW) with the baseline multi-task neural network model by Crinchton et al. on the same 15 datasets used by Crinchton et al.. Since all the datasets are trained together for MTM-CW, the performance on each dataset is slightly different when trained on 15 datasets compared with trained on 5 datasets (shown above).
 
 |Dataset | [Crichton et al. 2016](https://github.com/cambridgeltl/MTL-Bioinformatics-2016) | STM | MTM-CW | Performance Improvement |
-| ------------- |-------------| -----| -----| -----| ---- |
+| ------------- |-------------| -----| -----| -----|
 | AnatEM | 82.21 | 85.30	| **86.04**	| **+4.19** | 
 | BC2GM | 73.17	| **80.00**	| 78.86	| **+5.69** |
 | BC4CHEMD | 83.02	| 88.75	| **88.83**	| **+5.81** |
